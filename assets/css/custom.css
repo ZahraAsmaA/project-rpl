@@ -1,0 +1,89 @@
+    /**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+    /*# sourceMappingURL=custom.css.map */
+    
+    .logo {
+        margin-top: 3%;
+        width: 25%;
+    }
+    
+    .app-title {
+        font-size: x-large;
+        font-weight: bolder;
+        font-style: oblique;
+    }
+    
+    .mr-auto {
+        margin-bottom: 0;
+    }
+    
+    .banner-img {
+        display: block;
+        width: 100%;
+        height: 275px;
+        object-fit: cover;
+    }
+    
+    .banner-btn {
+        width: 20%;
+        height: 20%;
+    }
+    
+    .welcome {
+        display: block;
+        font-size: xx-large;
+    }
+    
+    .content {
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        color: #341D00;
+    }
+    
+    .card {
+        flex-direction: row;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .card img {
+        width: 30%;
+    }
+    
+    .blockquote {
+        background-color: transparent;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .page-header {
+        font-size: x-large;
+        font-weight: bolder;
+        margin-bottom: 0;
+        /* padding: 10%; */
+        color: #341D00;
+    }
+    
+    .ribbon {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: #341D00;
+        text-align: center;
+    }
+    
+    .footer {
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .cr {
+        color: rgb(218, 178, 0);
+    }
