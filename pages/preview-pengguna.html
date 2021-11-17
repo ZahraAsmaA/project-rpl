@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Lihat Produk &mdash; Picasso</title>
+
+    <!-- General CSS Files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- CSS Libraries -->
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="main-wrapper">
+            <div class="navbar-bg"></div>
+            <nav class="navbar navbar-expand-lg main-navbar">
+                <ul class=" mr-auto">
+                    <a class="nav-link app-title" href="#">PICASSO</a>
+                </ul>
+                <ul class="navbar-nav navbar-right">
+                    <li>
+                        <a class="nav-link" href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Daftar Produk</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Langkah Pemesanan</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Keranjang Anda</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Riwayat Pemesanan</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Log Out</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Main Content -->
+            <div class="main-content">
+                <section class="section">
+                    <div class=" section-header">
+                        <div style="margin-left: 5%;">
+                            <P class="page-header">Langkah Pemesanan</P>
+                        </div>
+                    </div>
+
+                    <div class="section-header">
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-12 col-sm-4 col-lg-4">
+                                    <img src="../assets/img/logo-light.png" style="max-width: 100%;">
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-6">
+                                    <div class="card-body">
+                                        <h1 style="font-size: xxx-large;">Judul Produk</h1>
+                                        <br>
+                                        <h5>$ [harga]</h5>
+                                        <br>
+                                        <h6>Batas pemesanan: 5 item sekaligus</h6>
+                                        <br>
+                                        <p class="card-text">Pesanan secara otomatis tidak mendapat pewarnaan secara penuh. Pilih kriteria tambahan yang ingin anda masukkan ke pesanan anda</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                    <label class="form-check-label" for="inlineCheckbox1">Tambah latar belakang</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                    <label class="form-check-label" for="inlineCheckbox2">Tambah karakter</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+                                                    <label class="form-check-label" for="inlineCheckbox1">Flat coloring</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+                                                    <label class="form-check-label" for="inlineCheckbox2">Shaded coloring</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" id="inlineCheckbox3" value="option3">
+                                                    <label class="form-check-label" for="inlineCheckbox3">Full coloring</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="card-text">Pilih jumlah yang ingin anda masukkan ke keranjang anda</p>
+                                        <div class="item" data-price="20">
+                                            <br><br>
+                                            <button class="btn btn-outline-dark btn-min">-</button>
+                                            <input type="number" class="quantity" value="0">
+                                            <button class="btn btn-outline-dark btn-plus">+</button>
+                                            <br><br>
+                                            <h6 id="total" style="text-align: right">Total: $0</h6>
+                                        </div>
+                                    </div>
+                                    <a href="cart.html" class="btn btn-warning">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </section>
+        </div>
+        <footer class="main-footer">
+            <div style="float: left;">
+                <h5>Contact Us</h5>
+                <p>picapicasso@gmail.com</p>
+            </div>
+            <div style="float: left; margin-left: 5%;">
+                <h5>Visit Our Pages</h5>
+                <a class="nav-link" href="#">Twitter</a>
+                <a class="nav-link" href="#">Facebook</a>
+                <a class="nav-link" href="#">Instagram</a>
+            </div>
+        </footer>
+    </div>
+    </div>
+
+    <!-- General JS Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js "></script>
+    <script src="../assets/js/stisla.js "></script>
+    <script>
+        function updateTotal() {
+            const elements = document.querySelectorAll('.quantity');
+            let total = 0;
+
+            elements.forEach(element => {
+                const quantity = element.value;
+                const price = element.parentNode.dataset.price;
+                const subtotal = quantity * price;
+
+                total += subtotal;
+            });
+
+            document.querySelector('#total').textContent = `Total: $ ${total}`
+        }
+
+        const plusButtons = document.querySelectorAll('.btn-plus');
+
+        plusButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const quantity = button.previousElementSibling;
+
+                quantity.value = parseInt(quantity.value) + 1;
+
+                updateTotal();
+            });
+        });
+
+        const minButtons = document.querySelectorAll('.btn-min');
+
+        minButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const quantity = button.nextElementSibling;
+
+                if (quantity.value > 0) {
+                    quantity.value = parseInt(quantity.value) - 1;
+
+                    updateTotal();
+                }
+            });
+        });
+    </script>
+
+    <!-- JS Libraies -->
+
+    <!-- Template JS File -->
+    <script src="../assets/js/scripts.js "></script>
+    <script src="../assets/js/custom.js "></script>
+
+    <!-- Page Specific JS File -->
+</body>
+
+</html>
