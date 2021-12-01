@@ -46,8 +46,14 @@
         color: #341D00;
     }
     
-    .card {
+    .card-home {
         flex-direction: row;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .card {
+        /* flex-direction: row; */
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -86,4 +92,8 @@
     
     .cr {
         color: rgb(218, 178, 0);
+    }
+    
+    .product {
+        max-height: 150px;
     }
